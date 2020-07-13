@@ -1,0 +1,90 @@
+/* CSS goes for mobile or all the HTML doc */
+
+/* html{height: 100%;} */
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+
+}
+
+.page-content{
+    padding: 5px;
+    background-image: linear-gradient(1135deg, hsl(0, 0%, 100%) , hsl(0, 100%, 98%));
+    min-height: 100%;
+    
+}
+.main-img{
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+.main-img img{
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+
+.input{
+    padding: 40px;
+    display: block;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+input{
+    
+    display: block;
+    padding: 15px 20px;
+    height: 0.1px;
+    border:solid 1px pink;
+    border-radius: 25px;
+    margin:  auto;
+}
+.body-txt{
+    text-align: center;
+    padding: 5px;
+}
+.header-text{
+    font-family: "Josefin Sans" ;
+    text-align: center;
+    line-height: 30px;
+}
+#body-txt{
+    padding:10px;
+    font-family: Josefin, Sans;
+    font-size: 12px;
+}
+
+.navbar{
+    height: 40px;
+    /* background-color: rgb(17, 147, 182); */
+}
+.navbar img {
+    height: 50%;
+    padding: 5px 10px;
+}
+
+#input-button {
+    width: 20px;
+    padding: 5px 25px;
+    border-radius: 20px;
+    background-color:hsl(0, 36%, 70%);
+    position: absolute;
+    border: 0.5px solid   hsl(0, 36%, 70%);
+    top:40px;
+    right: 50px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+footer{
+    display: block;
+    margin: 10px auto;
+}
